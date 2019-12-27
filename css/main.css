@@ -1,17 +1,24 @@
 header{
   display: none;
+  flex-shrink 0;
 }
 body {
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 nav {
   background: #34302d;
   height: 2rem;
   padding: 0.5rem;
+  flex-shrink: 0;
 }
 #content {
   margin: 0 1rem;
+  flex-grow: 1;
 }
 footer {
   background: #222222;
+  flex-shrink: 0;
 }
