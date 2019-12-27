@@ -1,0 +1,17 @@
+header{
+  display: none;
+}
+body {
+  margin: 0;
+}
+nav {
+  background: #34302d;
+  height: 2rem;
+  padding: 0.5rem;
+}
+#content {
+  margin: 0 1rem;
+}
+footer {
+  background: #222222;
+}
